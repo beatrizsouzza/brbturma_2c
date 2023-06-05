@@ -15,5 +15,23 @@ display: inline-block;
     padding: 1em;
 }
 
+.lista_menu{
+    display: none;
+    position: absolute
+    top: 100%;
+    width: 60vw;
+
+    container_botao:checked ~ .lista-menu{
+        display: block;
+    }
+
+    .lista-menu_titulo,
+    .lista-menu_item{
+        padding:lem;
+        background-color: var(--branco);
+    }
+
+}
+
 
 
